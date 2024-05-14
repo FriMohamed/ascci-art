@@ -16,7 +16,7 @@ func main () {
 	FileContent := methods.ProccessFileContent("standard.txt")
 
 	// Proccess the output
-	input := os.Args[1]
+	input := args[1]
 	if len(input) == 0 {
 		return 
 	} else {
